@@ -1,0 +1,179 @@
+{
+ "caps": {
+  "num_lab_procedures": 85.0,
+  "num_medications": 44.0,
+  "number_outpatient": 4.0,
+  "number_emergency": 2.0,
+  "number_inpatient": 3.0
+ },
+ "to_log": [
+  "num_medications",
+  "number_outpatient",
+  "number_emergency",
+  "number_inpatient",
+  "total_prior_visits",
+  "time_in_hospital",
+  "num_procedures",
+  "n_drug_changes"
+ ],
+ "cats": {
+  "race": [
+   "AfricanAmerican",
+   "Asian",
+   "Caucasian",
+   "Hispanic",
+   "Inconnu",
+   "Other"
+  ],
+  "payer_code": [
+   "Autre",
+   "BC",
+   "CP",
+   "HM",
+   "Inconnu",
+   "MC",
+   "MD",
+   "SP"
+  ],
+  "medical_specialty": [
+   "Autre",
+   "Cardiology",
+   "Emergency/Trauma",
+   "Family/GeneralPractice",
+   "Inconnu",
+   "InternalMedicine",
+   "Nephrology",
+   "Orthopedics",
+   "Orthopedics-Reconstructive",
+   "Pulmonology",
+   "Radiologist",
+   "Surgery-General"
+  ],
+  "admission_type_id": [
+   "Inconnu",
+   "Nouveau-ne",
+   "Programmee",
+   "Urgence"
+  ],
+  "admission_source_id": [
+   "Autre",
+   "Inconnu",
+   "Reference",
+   "Transfert",
+   "Urgences"
+  ],
+  "discharge_disposition_id": [
+   "Autre",
+   "Contre_avis",
+   "Domicile",
+   "Domicile_soins",
+   "Etablissement",
+   "Inconnu"
+  ],
+  "diag_1_grp": [
+   "Autre",
+   "Blessures",
+   "Circulatoire",
+   "Diabete",
+   "Digestif",
+   "Genito-urinaire",
+   "Musculosquelettique",
+   "Neoplasmes",
+   "Respiratoire"
+  ],
+  "diag_2_grp": [
+   "Aucun",
+   "Autre",
+   "Blessures",
+   "Circulatoire",
+   "Diabete",
+   "Digestif",
+   "Genito-urinaire",
+   "Musculosquelettique",
+   "Neoplasmes",
+   "Respiratoire"
+  ],
+  "diag_3_grp": [
+   "Aucun",
+   "Autre",
+   "Blessures",
+   "Circulatoire",
+   "Diabete",
+   "Digestif",
+   "Genito-urinaire",
+   "Musculosquelettique",
+   "Neoplasmes",
+   "Respiratoire"
+  ],
+  "max_glu_serum": [
+   ">200",
+   ">300",
+   "Non testé",
+   "Norm"
+  ],
+  "A1Cresult": [
+   ">7",
+   ">8",
+   "Non testé",
+   "Norm"
+  ],
+  "metformin": [
+   "Down",
+   "No",
+   "Steady",
+   "Up"
+  ],
+  "repaglinide": [
+   "Down",
+   "No",
+   "Steady",
+   "Up"
+  ],
+  "glimepiride": [
+   "Down",
+   "No",
+   "Steady",
+   "Up"
+  ],
+  "glipizide": [
+   "Down",
+   "No",
+   "Steady",
+   "Up"
+  ],
+  "glyburide": [
+   "Down",
+   "No",
+   "Steady",
+   "Up"
+  ],
+  "pioglitazone": [
+   "Down",
+   "No",
+   "Steady",
+   "Up"
+  ],
+  "rosiglitazone": [
+   "Down",
+   "No",
+   "Steady",
+   "Up"
+  ],
+  "insulin": [
+   "Down",
+   "No",
+   "Steady",
+   "Up"
+  ]
+ },
+ "drug_cols": [
+  "metformin",
+  "repaglinide",
+  "glimepiride",
+  "glipizide",
+  "glyburide",
+  "pioglitazone",
+  "rosiglitazone",
+  "insulin"
+ ]
+}
